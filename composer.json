@@ -11,7 +11,7 @@
   ],
   "require": {
     "php": "^7.3|^8.0",
-    "rap2hpoutre/laravel-log-viewer": "^2.2",
+    "rap2hpoutre/laravel-log-viewer": "^3.0",
     "spatie/laravel-db-snapshots": "^2.6",
     "spatie/commonmark-highlighter": "^2.0 || ^3.0"
   },
@@ -29,5 +29,15 @@
         "Uspdev\\LaravelTools\\AppServiceProvider"
       ]
     }
-  }
+  },
+
+  "repositories": [
+    {
+        "type": "vcs",
+        "url": "https://github.com/carolinemcarvalho/laravel-tools"
+    }
+],
+"require": {
+    "uspdev/laravel-tools": "dev-suporte-laravel-13"
+}
 }
