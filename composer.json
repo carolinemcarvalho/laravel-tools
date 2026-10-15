@@ -29,15 +29,5 @@
         "Uspdev\\LaravelTools\\AppServiceProvider"
       ]
     }
-  },
-
-  "repositories": [
-    {
-        "type": "vcs",
-        "url": "https://github.com/carolinemcarvalho/laravel-tools"
-    }
-],
-"require": {
-    "uspdev/laravel-tools": "dev-suporte-laravel-13"
-}
+  }
 }
